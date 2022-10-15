@@ -1,0 +1,77 @@
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-size: 22px;
+    background-image: url('/img/library.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30vh 20vw;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.heade{
+    text-align: center;
+    padding: 0px 20px;
+    margin: 10px 0px;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-color: white;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 3px;
+}
+
+button{
+    background-color: #0f0909; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin: 10px 20px;
+}
+
+.quote {
+    margin: 55px 0px 30px 30px;
+}
+
+.teller{
+    color: brown;
+}
